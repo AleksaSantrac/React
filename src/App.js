@@ -32,9 +32,17 @@ function App() {
       new: false,
     },
   ]);
+
+
+  
   return (
     <div className="App">
-      
+      <Sidebar sort={sort} save={save} search={search}/>
+      <div className='body'>
+        <div>
+
+        </div>
+      </div>
     </div>
   );
 }
